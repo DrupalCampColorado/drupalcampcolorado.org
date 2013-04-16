@@ -40,7 +40,10 @@ h1 {
 }
 
 h2 {
-  @include adjust-font-size-to($fs-h2, 7);
+  @include adjust-font-size-to($fs-xl, 5);
+  @include breakpoint($bp-tablet) {
+    @include adjust-font-size-to($fs-h2, 7);
+  }
   @include rhythm(0, 0, 0, 0, $fs-h2);
   font-weight: 300;
   color: $teal;
@@ -278,7 +281,10 @@ tbody > tr.odd {
 }
 
 .intro {
-  @include adjust-font-size-to($fs-l, 5);
+  @include adjust-font-size-to($fs-m, 4);
+  @include breakpoint($bp-tablet) {
+    @include adjust-font-size-to($fs-l, 5);
+  }
 }
 
 .centered {

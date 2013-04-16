@@ -28,8 +28,12 @@ body {
 		}
 	}
 	@include breakpoint($bp-full) {
+		// @include box-sizing(border-box);
 		height: auto;
-		padding-bottom: 600px;
+		padding-bottom: 0;
+		.page {
+			padding-bottom: 600px;
+		}
 		#footer {
 			height: 600px;
 		}

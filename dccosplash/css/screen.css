@@ -277,7 +277,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.625em;
+  font-size: 1.875em;
   line-height: 1em;
   margin-top: 0em;
   padding-top: 0em;
@@ -285,6 +285,12 @@ h2 {
   margin-bottom: 0em;
   font-weight: 300;
   color: #33adad;
+}
+@media (min-width: 820px) {
+  h2 {
+    font-size: 2.625em;
+    line-height: 1em;
+  }
 }
 
 h3 {
@@ -548,8 +554,14 @@ tbody > tr.odd {
 }
 
 .intro {
-  font-size: 1.125em;
-  line-height: 1.66667em;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+@media (min-width: 820px) {
+  .intro {
+    font-size: 1.125em;
+    line-height: 1.66667em;
+  }
 }
 
 .centered {
@@ -567,13 +579,9 @@ tbody > tr.odd {
   background-color: white;
   background-color: rgba(255, 255, 255, 0.9);
 }
-@media (min-width: 820px) {
-  .l-constrained {
-    background: none;
-  }
-}
 @media (min-width: 1060px) {
   .l-constrained {
+    background: none;
     margin: 0 auto;
     padding: 10% 0 0;
   }
@@ -688,6 +696,9 @@ body .scene {
 @media (min-width: 1060px) {
   body {
     height: auto;
+    padding-bottom: 0;
+  }
+  body .page {
     padding-bottom: 600px;
   }
   body #footer {
