@@ -621,6 +621,36 @@ tbody > tr.odd {
   }
 }
 
+@-webkit-keyframes middleground-cloud-lg {
+  from {
+    left: -10%;
+  }
+
+  to {
+    left: 90%;
+  }
+}
+
+@-moz-keyframes middleground-cloud-lg {
+  from {
+    left: -10%;
+  }
+
+  to {
+    left: 90%;
+  }
+}
+
+@-o-keyframes middleground-cloud-lg {
+  from {
+    left: -10%;
+  }
+
+  to {
+    left: 90%;
+  }
+}
+
 @keyframes middleground-cloud-lg {
   from {
     left: -10%;
@@ -632,8 +662,44 @@ tbody > tr.odd {
 }
 
 .middleground .cloud {
+  -webkit-animation: middleground-cloud-lg 40s infinite;
+  -moz-animation: middleground-cloud-lg 40s infinite;
+  -o-animation: middleground-cloud-lg 40s infinite;
   animation: middleground-cloud-lg 40s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
   animation-timing-function: linear;
+}
+
+@-webkit-keyframes background-cloud-lg {
+  from {
+    left: -20%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@-moz-keyframes background-cloud-lg {
+  from {
+    left: -20%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@-o-keyframes background-cloud-lg {
+  from {
+    left: -20%;
+  }
+
+  to {
+    left: 100%;
+  }
 }
 
 @keyframes background-cloud-lg {
@@ -647,8 +713,44 @@ tbody > tr.odd {
 }
 
 .background .cloud-lg {
+  -webkit-animation: background-cloud-lg 60s infinite;
+  -moz-animation: background-cloud-lg 60s infinite;
+  -o-animation: background-cloud-lg 60s infinite;
   animation: background-cloud-lg 60s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
   animation-timing-function: linear;
+}
+
+@-webkit-keyframes background-cloud-sm {
+  from {
+    left: -30%;
+  }
+
+  to {
+    left: 90%;
+  }
+}
+
+@-moz-keyframes background-cloud-sm {
+  from {
+    left: -30%;
+  }
+
+  to {
+    left: 90%;
+  }
+}
+
+@-o-keyframes background-cloud-sm {
+  from {
+    left: -30%;
+  }
+
+  to {
+    left: 90%;
+  }
 }
 
 @keyframes background-cloud-sm {
@@ -662,7 +764,13 @@ tbody > tr.odd {
 }
 
 .background .cloud-sm {
+  -webkit-animation: background-cloud-sm 60s infinite;
+  -moz-animation: background-cloud-sm 60s infinite;
   animation: background-cloud-sm 60s infinite;
+  animation: background-cloud-sm 60s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
   animation-timing-function: linear;
 }
 
