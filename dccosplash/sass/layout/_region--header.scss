@@ -1,0 +1,20 @@
+
+#header {
+	padding: 0% 0 0;
+}
+
+#logo {
+	margin-bottom: rhythm(5, $fs-h1);
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+#header h2 {
+	margin-bottom: rhythm(5, $fs-h2);
+	.year {
+		color: $orange;
+	}
+}

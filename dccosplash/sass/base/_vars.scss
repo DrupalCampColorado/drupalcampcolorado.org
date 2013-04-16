@@ -1,0 +1,129 @@
+//
+// @file
+// Variables for use throughout this compass project.
+//-----------------------------------------------------------------------------
+
+
+// IE Support
+//-----------------------------------------------------------------------------
+
+// Setting this to false will result in smaller output, but no support for ie6 hacks.
+// $legacy-support-for-ie6: true; // Overrides default set in Support partial.
+
+// Setting this to false will result in smaller output, but no support for ie7 hacks.
+$legacy-support-for-ie7: true; // Overrides default set in Support partial.
+
+
+//  Colors
+//-----------------------------------------------------------------------------
+
+$white:             #ffffff;
+$black:							#1B1B1B;
+
+$gray-lighter:			#e5e5e5;
+$gray-light:				#cccccc;
+$gray:							#999999;
+$gray-dark:					#666666;
+$gray-darker:				#464646;
+$gray-darkest:			#222222;
+
+$teal:							#33adad;
+
+$orange:						#f66038;
+
+// Semantic color variables.
+
+$clr-neutral:       $gray-light;      // Default nuetral color
+$clr-text:          $gray-darker;     // Default body copy color
+$clr-link:          $black;     				// Default link color
+$clr-accent:        $gray-darker;     // Default accent color
+
+$clr-border:        $gray-lighter;    // Default border and required color
+$clr-rule:					$gray-light; 			// Horizonal & Vertical Rules
+
+
+$clr-status:        $gray-dark;      // Default status color
+$clr-warning:       $gray;          // Default warning color
+$clr-error:         $gray;             // Default error and required color
+
+$clr-table-border:  $gray-light;      // Default table border color
+$clr-table-odd:     $gray-lighter;      // Default table odd row color
+$clr-table-even:    transparent;      // Default table even row color
+
+
+//  Typography
+//-----------------------------------------------------------------------------
+
+//  Typefaces
+$ff-mono:     Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", Courier, monospace;;
+$ff-sans:     "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$ff-serif:    Georgia, serif;
+
+$ff-body:     $ff-sans;
+$ff-heading:  $ff-sans;
+$ff-display:  $ff-heading;
+
+//  Font sizes
+$fs-xxxs:    11px;
+$fs-xxs:     12px;
+$fs-xs:      13px;
+$fs-s:       14px;
+$fs-m:       16px;
+$fs-l:       18px;
+$fs-xl:      30px;
+$fs-xxl:     42px;
+$fs-xxxl:    60px;
+
+$fs-h1: $fs-xxxl !default;
+$fs-h2: $fs-xxl !default;
+$fs-h3: $fs-xl !default;
+$fs-h4: $fs-l !default;
+$fs-h5: $fs-m !default;
+$fs-h6: $fs-s !default;
+
+// The amount lists and blockquotes are indented.
+$indent-amount: 15px !default;
+
+// Vertical Ryhthm
+$base-font-size:    $fs-m;       // Font-size of your body copy.
+$base-line-height:  6px;         // Setting the base-line-height half.
+                                 // the height of the desired body copy.
+                                 // line-height helps prevent sparse.
+                                 // leading at different font-sizes.
+
+
+// Zen Grids
+//-----------------------------------------------------------------------------
+
+$zen-column-count: 20;
+$zen-gutter-width: 0;
+$box-sizing-polyfill-path: "/dccosplash/boxsizing.htc";
+$zen-auto-include-item-base: false;
+
+//  Layout
+//-----------------------------------------------------------------------------
+
+$w-full: 700px;
+$w-gutter: 30px;
+
+//  Breakpoints
+//-----------------------------------------------------------------------------
+// Wrap all media queries in a .lt-ie9 class
+$breakpoint-no-queries: false;
+$breakpoint-no-query-wrappers: true;
+
+//	Specific Breakpoints
+
+$bp-mobile: 360px;
+$bp-tablet: 820px;
+$bp-full: 1060px;
+
+//  CSS3
+//-----------------------------------------------------------------------------
+
+$default-transition-duration: .15s;
+
+// Text shadow defaults
+$default-text-shadow-color: rgba($black, .6);
+$default-text-shadow-blur: 1px;
+$default-text-shadow-v-offset: 1px;

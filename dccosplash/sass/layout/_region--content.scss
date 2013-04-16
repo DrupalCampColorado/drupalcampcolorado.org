@@ -1,0 +1,7 @@
+
+.intro {
+	margin-bottom: 0;
+	@include breakpoint($bp-full) {
+		margin-right: 25%;
+	}
+}

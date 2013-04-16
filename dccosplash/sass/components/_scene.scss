@@ -1,0 +1,142 @@
+html {
+	height: 100%;
+}
+
+body {
+	// @include box-sizing(border-box);
+	height: 100%;
+	position: relative;
+	// padding-bottom: 100px;
+	#footer {
+		height: 100%;
+		z-index: 1;
+	}
+	.scene {
+		height: 100%;
+		width: 500%;
+		left: -200%;
+	}
+	@include breakpoint($bp-mobile) {
+		// padding-bottom: 100px;
+		#footer {
+			height: 60%;
+		}
+		.scene {
+			height: 100%;
+			width: 160%;
+			left: -30%;
+		}
+	}
+	@include breakpoint($bp-full) {
+		height: auto;
+		padding-bottom: 600px;
+		#footer {
+			height: 600px;
+		}
+		.scene {
+			left: -30%;
+			width: 160%;
+			height: 100%;
+		}
+	}
+
+}
+
+#footer {
+	// padding-bottom: 500px;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.scene {
+	position: absolute;
+	// left: -30%;
+	bottom: 0;
+	// width: 160%;
+	// height: 100%;
+}
+
+.foreground,
+.middleground,
+.background {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.cloud,
+.mountain {
+	position: absolute;
+	max-height: 100%;
+}
+
+.mountain {
+	bottom: 0;
+}
+
+//	Foreground
+
+.foreground {
+	z-index: 3;
+	.mountain-sm {
+		left: 0;
+		width: 40%;
+	}
+	.mountain-lg {
+		left: 40%;
+		width: 70%;
+	}
+}
+
+//	Middleground
+
+.middleground {
+	z-index: 2;
+	.mountain-sm {
+		left: 20%;
+		width: 50%;
+	}
+	.mountain-lg {
+		left: 50%;
+		width: 80%;
+	}
+	.cloud {
+		z-index: 3;
+		left: 25%;
+		top: 40%;
+		width: 20%;
+	}
+}
+
+//	Background
+
+.background {
+	z-index: 1;
+	.mountain-sm {
+		z-index: 3;
+		left: 5%;
+		width: 60%;
+	}
+	.mountain-lg {
+		z-index: 2;
+		left: 35%;
+		width: 45%;
+	}
+	.cloud-lg {
+		z-index: 1;
+		width: 10%;
+		top: 20%;
+		left: 60%;
+	}
+	.cloud-sm {
+		z-index: 4;
+		width: 5%;
+		top: 35%;
+		left: 50%;
+	}
+}
