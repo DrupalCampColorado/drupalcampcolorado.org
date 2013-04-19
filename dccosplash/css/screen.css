@@ -582,7 +582,7 @@ tbody > tr.odd {
 @media (min-width: 1060px) {
   .l-constrained {
     margin: 0 auto;
-    padding: 10% 0 0;
+    padding: 10% 5%;
   }
 }
 
