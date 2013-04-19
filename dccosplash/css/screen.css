@@ -581,7 +581,6 @@ tbody > tr.odd {
 }
 @media (min-width: 1060px) {
   .l-constrained {
-    background: none;
     margin: 0 auto;
     padding: 10% 0 0;
   }
@@ -814,7 +813,7 @@ body .scene {
     height: auto;
     padding-bottom: 0;
   }
-  body .page {
+  body .page-wrapper {
     padding-bottom: 600px;
   }
   body #footer {
