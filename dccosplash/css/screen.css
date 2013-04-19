@@ -774,24 +774,32 @@ tbody > tr.odd {
   animation-timing-function: linear;
 }
 
-html {
-  height: 100%;
+@media (min-width: 360px) {
+  html {
+    height: 100%;
+  }
 }
 
-body {
-  height: 100%;
+.page-wrapper {
   position: relative;
 }
+
 body #footer {
-  height: 100%;
+  height: 80%;
   z-index: 1;
 }
 body .scene {
   height: 100%;
-  width: 500%;
-  left: -200%;
+  width: 400%;
+  left: -150%;
 }
 @media (min-width: 360px) {
+  body {
+    height: 100%;
+  }
+  body .page-wrapper {
+    height: 100%;
+  }
   body #footer {
     height: 60%;
   }
