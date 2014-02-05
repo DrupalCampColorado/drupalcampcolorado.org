@@ -1,0 +1,3 @@
+[submodule "sites/all/libraries/coinbase-php"]
+	path = sites/all/libraries/coinbase-php
+	url = https://github.com/coinbase/coinbase-php.git
