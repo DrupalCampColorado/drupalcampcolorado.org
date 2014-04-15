@@ -1,0 +1,160 @@
+//
+// @file
+// Variables for use throughout this compass project.
+//-----------------------------------------------------------------------------
+
+// IE Support
+//-----------------------------------------------------------------------------
+// Setting this to false will result in smaller output, but no support for ie6 hacks.
+// $legacy-support-for-ie6: true; // Overrides default set in Support partial.
+
+// Setting this to false will result in smaller output, but no support for ie7 hacks.
+$legacy-support-for-ie7: true; // Overrides default set in Support partial.
+
+//  Color.
+//-----------------------------------------------------------------------------
+$white:             #ffffff;
+$black:             #000000;
+
+$red:                   #8C1515;
+
+$blue:                  #0098DB;
+
+$orange:                #E98300;
+
+$green:                 #009B76;
+
+$gray-white:            #ececec;
+$gray-white:            #f5f5f5;
+$gray-lightest:         #c6c6c7;
+$gray-lighter:          #989899;
+$gray-light:            #68686b;
+$gray:                  #414143;
+$gray-dark:             #303032;
+$gray-darker:           #202021;
+
+// $teal:                  #66cc99;
+// $teal-dark:             #4a9f72;
+// $teal-darker:           #3b7f5b;
+// $teal-darkest:          #2f6649;
+
+// $orange-lighter:        #ffcc00;
+// $orange-light:          #ffb200;
+// $orange:                #ff8b00;
+// $orange-dark:           #ff6e00;
+// $orange-darker:         #ff5100;
+// $orange-darkest:        #ff3d00;
+
+$blue:                  #004499;
+
+$teal:                  #3dd59e;
+$teal-dark:             #001d20;
+
+// Semantic color.
+//----------------------------------------------------------------------------
+$clr-neutral:      $gray;      // Default nuetral color
+$clr-text:         $gray;     // Default body copy color
+$clr-link:         $gray;           // Default link color
+$clr-link-hover:   $gray;           // Default link hover color
+$clr-accent:       $gray;            // Default accent color
+$clr-border:       $gray;    // Default border and required color
+$clr-status:       $gray;           // Default status color
+$clr-warning:      $gray;          // Default warning color
+$clr-error:        $gray;             // Default error and required color
+$clr-table-border: $gray;      // Default table border color
+$clr-table-odd:    $gray;      // Default table odd row color
+$clr-table-even:   transparent;      // Default table even row color
+
+// Typefaces.
+//----------------------------------------------------------------------------
+$ff-heading:  "refrigerator-deluxe", Impact, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$ff-sans:  "anago", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$ff-serif: Georgia, "Times New Roman", Times, serif;
+
+// Semantic fonts.
+//----------------------------------------------------------------------------
+$ff-body:    $ff-sans;
+$ff-display: $ff-heading;
+
+// Font size.
+//----------------------------------------------------------------------------
+$fs-xxs:     12px;
+$fs-xs:      14px;
+$fs-s:       16px;
+$fs-m:       18px;
+$fs-l:       20px;
+$fs-xl:      24px;
+$fs-xxl:     30px;
+$fs-xxxl:    36px;
+$fs-xxxxl:   60px;
+$fs-xxxxxl:  48px;
+
+// Semantic font size.
+//----------------------------------------------------------------------------
+$fs-h1: $fs-xxxxxl !default;
+$fs-h2: $fs-xxxxl !default;
+$fs-h3: $fs-xl !default;
+$fs-h4: $fs-l !default;
+$fs-h5: $fs-s !default;
+$fs-h6: $fs-xs !default;
+
+// Indentation.
+//----------------------------------------------------------------------------
+$indent-amount: 1em !default;
+
+// Vertical rhythm.
+//----------------------------------------------------------------------------
+$base-font-size:    $fs-l;       // Font-size of your body copy.
+$base-line-height:  6px;         // Setting the base-line-height half.
+                                 // the height of the desired body copy.
+                                 // line-height helps prevent sparse.
+                                 // leading at different font-sizes.
+
+// Layout
+//----------------------------------------------------------------------------
+$box-sizing-polyfill-path: "/boxsizing.htc";
+$direction: "both";
+
+// Singularity.
+$grids: 24;
+$gutters: 0;
+$output: 'isolation';
+
+// Breakpoint.
+$breakpoint-no-queries: false;
+$breakpoint-no-query-wrappers: true;
+$breakpoint-no-query-fallbacks: true;
+
+$mobile: 480px;
+$mobile-wide: 600px;
+$tablet: 768px;
+$tablet-wide: 992px;
+$desktop: 1104px;
+$desktop-wide: 1382px;
+
+$tall: (min-height 800px);
+
+// Width.
+$w-full: 1110px;
+
+// Transition.
+//----------------------------------------------------------------------------
+$default-transition-duration: .15s;
+
+// Text shadow.
+//----------------------------------------------------------------------------
+$default-text-shadow-color: rgba($black, .25);
+$default-text-shadow-blur: 1px;
+$default-text-shadow-v-offset: 1px;
+
+// Border radius.
+//----------------------------------------------------------------------------
+$radius-s: .25em;
+$radius-m: .5em;
+$radius-l: 50%;
+
+// Box Shadow.
+//----------------------------------------------------------------------------
+$default-box-shadow-color: rgba($black, .25);
+$default-box-shadow-v-offset: 1px;
+$default-box-shadow-blur: 1px;

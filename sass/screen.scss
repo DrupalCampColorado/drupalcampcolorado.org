@@ -1,0 +1,16 @@
+// Project base.
+@import "base/init";
+
+// Utilities.
+// @import "icon/*.png";     // Compass sprite support
+@import "utilities/*";
+
+// Base - Generalized global styles.
+@import "base/normalize";
+@import "base/elements";
+
+// Layouts - Styles specific to page layout.
+@import "layout/*";
+
+// Components - Styles specific to components.
+@import "components/*";
