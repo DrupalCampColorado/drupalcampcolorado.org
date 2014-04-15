@@ -16,13 +16,14 @@
 
     img {
       width: 432px;
+      max-height: 200px;
       @include transition;
     }
 
     @include breakpoint($mobile-wide) {
-      padding: 5% 10%;
+      padding: 5%;
       img {
-        max-height: 120px;
+        // max-height: 200px;
       }
     }
     @include breakpoint($tablet $tall, $no-query: '.lt-ie9') {
