@@ -26,5 +26,7 @@ dependencies[] = rdf
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = features
+dependencies[] = field_permissions
 dependencies[] = dcco_blog
 dependencies[] = dcco_sponsors
+dependencies[] = dcco_session_submission
